@@ -118,37 +118,37 @@ jQuery(document).on('ready', function ($) {
     /*---------------------------
         COURSE SLIDER
     -----------------------------*/
-    var $courseCarousel = $('.course-list');
-    $courseCarousel.owlCarousel({
-        merge: true,
-        smartSpeed: 1000,
-        loop: true,
-        nav: false,
-        center: true,
-        navText: ['<i class="fa fa-long-arrow-left"></i> Prev', 'Next <i class="fa fa-long-arrow-right"></i>'],
-        autoplay: true,
-        autoplayTimeout: 3000,
-        margin: 30,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-                margin: 0,
-            },
-            600: {
-                items: 2
-            },
-            1000: {
-                items: 3
-            },
-            1200: {
-                items: 3
-            },
-            1900: {
-                items: 4
-            }
-        }
-    });
+    // var $courseCarousel = $('.course-list');
+    // $courseCarousel.owlCarousel({
+    //     merge: true,
+    //     smartSpeed: 1000,
+    //     loop: true,
+    //     nav: false,
+    //     center: true,
+    //     navText: ['<i class="fa fa-long-arrow-left"></i> Prev', 'Next <i class="fa fa-long-arrow-right"></i>'],
+    //     autoplay: true,
+    //     autoplayTimeout: 3000,
+    //     margin: 30,
+    //     responsiveClass: true,
+    //     responsive: {
+    //         0: {
+    //             items: 1,
+    //             margin: 0,
+    //         },
+    //         600: {
+    //             items: 2
+    //         },
+    //         1000: {
+    //             items: 3
+    //         },
+    //         1200: {
+    //             items: 3
+    //         },
+    //         1900: {
+    //             items: 4
+    //         }
+    //     }
+    // });
 
     /*---------------------------
         TESTMONIAL SLIDER
